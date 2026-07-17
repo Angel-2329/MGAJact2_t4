@@ -1,10 +1,10 @@
-package com.mgaj.act1;
+package com.mgaj.act2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Act1ApplicationTests {
+class Act2ApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -43,7 +43,7 @@ public class ControladorEquipo
     {
         modelo.addAttribute("autor", nombreEstudiante);
         modelo.addAttribute("equipo", new Equipo());
-        return "index";
+        return "formulario";
     }
 
     @PostMapping("/guardar")
@@ -52,7 +52,7 @@ public class ControladorEquipo
         modelo.addAttribute("autor", nombreEstudiante);
         modelo.addAttribute("mensajeForm", "Equipo guardado: " + equipo.getNombre() + " de " + equipo.getPais());
         modelo.addAttribute("equipo", new Equipo());
-        return "index";
+        return "formulario";
     }
 
     @GetMapping("/buscar")
@@ -61,7 +61,7 @@ public class ControladorEquipo
         modelo.addAttribute("autor", nombreEstudiante);
         modelo.addAttribute("mensajeParam", "Buscando equipos del país: " + pais);
         modelo.addAttribute("equipo", new Equipo());
-        return "index";
+        return "formulario";
     }
 
     @GetMapping("/detalle/{id}")
@@ -70,6 +70,6 @@ public class ControladorEquipo
         modelo.addAttribute("autor", nombreEstudiante);
         modelo.addAttribute("mensajePath", "Viendo detalles del equipo con ID: " + id);
         modelo.addAttribute("equipo", new Equipo());
-        return "index";
+        return "formulario";
     }
 }
