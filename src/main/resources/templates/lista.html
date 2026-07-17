@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Equipos</title>
+</head>
+<body>
+    <h1 th:text="${autor}"></h1>
+    <h2>Listado de Equipos de Fútbol</h2>
+    <table border="1">
+        <tr>
+            <th>Nombre del Equipo</th>
+            <th>País</th>
+            <th>Copas Ganadas</th>
+        </tr>
+        <tr th:each="equipo : ${equipos}">
+            <td th:text="${equipo.nombre}"></td>
+            <td th:text="${equipo.pais}"></td>
+            <td th:text="${equipo.copasGanadas}"></td>
+        </tr>
+    </table>
+    <br>
+    <a th:href="@{/mvc/equipos/nuevo}">Ir al Formulario</a>
+</body>
+</html>

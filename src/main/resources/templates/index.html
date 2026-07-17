@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Equipo</title>
+</head>
+<body>
+    <h1 th:text="${autor}" style="color: blue;"></h1>
+
+    <div th:if="${mensajeForm != null}" style="background-color: lightgreen; padding: 5px;">
+        <p th:text="${mensajeForm}"></p>
+    </div>
+    <div th:if="${mensajeParam != null}" style="background-color: lightblue; padding: 5px;">
+        <p th:text="${mensajeParam}"></p>
+    </div>
+    <div th:if="${mensajePath != null}" style="background-color: lightyellow; padding: 5px;">
+        <p th:text="${mensajePath}"></p>
+    </div>
+    <h2 style="color: blue;" th:if="${mensaje != null}" th:text="${mensaje}"></h2>
+
+    <h2>Registrar Nuevo Equipo</h2>
+    <form th:action="@{/mvc/equipos/guardar}" th:object="${equipo}" method="post">
+        <label>Nombre:</label>
+        <input type="text" th:field="*{nombre}" /><br/><br/>
+        
+        <label>País:</label>
+        <input type="text" th:field="*{pais}" /><br/><br/>
+        
+        <label>Copas Ganadas:</label>
+        <input type="number" th:field="*{copasGanadas}" /><br/><br/>
+        
+        <button type="submit">Guardar Equipo</button>
+    </form>
+    <br>
+    <a th:href="@{/mvc/equipos/lista}">Ver Lista Completa</a>
+</body>
+</html>
