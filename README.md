@@ -50,4 +50,4 @@ Para la parte visual ocupé HTML con Thymeleaf:
 *   **Lista de Equipos:** [http://68.183.115.226:2923/mvc/equipos/lista](http://68.183.115.226:2923/MGAJ_Act2/mvc/equipos/lista)
 *   **Formulario de Registro:** [http://68.183.115.226:2923/mvc/equipos/nuevo](http://68.183.115.226:2923/MGAJ_Act2/mvc/equipos/nuevo)
 *   **Detalle por ID (Ejemplo con ID 99):** [http://68.183.115.226:2923/mvc/equipos/detalle/99](http://68.183.115.226:2923/MGAJ_Act2/mvc/equipos/detalle/99)
-*   **Búsqueda por País (Ejemplo con Argentina):** http://68.183.115.226:2923/mvc/equipos/buscar?pais=Argentina
+*   **Búsqueda por País (Ejemplo con Argentina):** [http://68.183.115.226:2923/MGAJ_Act2/mvc/equipos/buscar?pais=Argentina](http://68.183.115.226:2923/MGAJ_Act2/mvc/equipos/buscar?pais=Argentina)
