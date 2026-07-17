@@ -31,22 +31,22 @@ Para la parte visual ocupé HTML con Thymeleaf:
 ## Capturas de Pantalla
 
 ### Formulario de Registro
-![Formulario](formulario.png)
+![Formulario](img/formulario.png)
 
 ### Lista de Equipos
-![Lista](lista-equipos.png)
+![Lista](img/lista-equipos.png)
 
 ### Detalle por ID
-![Detalle](detalles-equipo-id.png)
+![Detalle](img/detalles-equipo-id.png)
 
 ### Búsqueda por País
-![Búsqueda](busqueda-id.png)
+![Búsqueda](img/busqueda-id.png)
 
 ### Prueba de API en POSTMAN
-![API](prueba-postman.png)
+![API](img/prueba-postman.png)
 
 
-##URL de mis actividades
+## URL de mis actividades
 *   **Lista de Equipos:** http://68.183.115.226:2923/mvc/equipos/lista
 *   **Formulario de Registro:** http://68.183.115.226:2923/mvc/equipos/nuevo
 *   **Detalle por ID (Ejemplo con ID 99):** http://68.183.115.226:2923/mvc/equipos/detalle/99
