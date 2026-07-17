@@ -31,19 +31,19 @@ Para la parte visual ocupé HTML con Thymeleaf:
 ## Capturas de Pantalla
 
 ### Formulario de Registro
-![Formulario](img/formulario.png)
+![Formulario](/src/main/resources/img/formulario.png)
 
 ### Lista de Equipos
-![Lista](img/lista-equipos.png)
+![Lista](/src/main/resources/img/lista-equipos.png)
 
 ### Detalle por ID
-![Detalle](img/detalles-equipo-id.png)
+![Detalle](/src/main/resources/img/detalles-equipo-id.png)
 
 ### Búsqueda por País
-![Búsqueda](img/busqueda-id.png)
+![Búsqueda](/src/main/resources/img/busqueda-pais.png)
 
 ### Prueba de API en POSTMAN
-![API](img/prueba-postman.png)
+![API](/src/main/resources/img/prueba-postman.png)
 
 
 ## URL de mis actividades
